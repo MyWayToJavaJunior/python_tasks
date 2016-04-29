@@ -1,0 +1,9 @@
+
+Alt + Down	Переместить строку вниз
+Alt + Up	Переместить Line Up (копировать Ctrl + Shift + Alt + Up )
+Ctrl + H - заменять
+Ctrl + P - поиск
+Ctrl + Shift + L - выделение всех одинаковых слов
+Shift + Alt + Up - курсоры
+Shift + F12 или F12 - информация о методах
+visual code
