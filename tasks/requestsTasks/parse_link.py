@@ -13,8 +13,8 @@ PATTERN_PROTOCOL = r'[\w]+://'
 #     text = f.read()
 #     list_link = re.findall(PATTERN_HREF, text)
 
-html = requests.get(link).text
-list_link = re.findall(PATTERN_HREF, html)
+#html = requests.get(link).text
+#list_link = re.findall(PATTERN_HREF, html)
 
 print(html)
 print(list_link)
@@ -34,7 +34,8 @@ for link in list_link:
 
 res.sort()
 
-print(res)
+for i in res:
+    print(i)
 
 # z = open('t.html', 'r')
 # s = z.read().split()
